@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg {
+    background: url("https://img.freepik.com/free-vector/hand-drawn-collage-design_23-2149543516.jpg?w=1060&t=st=1695986015~exp=1695986615~hmac=22771a6a9881f1f250bd4a7ce4de99af23941fc7ec9e21de74970e9d38388967")
+                no-repeat center center / cover;
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    filter: blur(50px);
+}
+
+.text-loading {
+    font-size: 64px;
+    color: #4f6759;
+    font-weight: 700;
+}

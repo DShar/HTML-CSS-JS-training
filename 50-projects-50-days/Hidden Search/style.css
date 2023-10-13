@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #8EACCD;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-container {
+    position: relative;
+}
+
+.search-container > * {
+    border: 0;
+    background: white;
+    height: 45px;
+    outline: none;
+}
+
+.search__input {
+    width: 45px;
+    padding: 10px;
+    font-size: 20px;
+    transition: width 0.5s linear;
+}
+
+.search__button {
+    width: 45px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.search-container.active .search__input {
+    width: 300px;
+}
+

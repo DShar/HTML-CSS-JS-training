@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rotating Navigation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="circle__container">
+        <div class="circle">
+            <button class="menu-icon menu-icon__open" id="btn-open">
+                <svg class="svg-icon" viewBox="0 0 20 20">
+                    <path fill="none" d="M3.314,4.8h13.372c0.41,0,0.743-0.333,0.743-0.743c0-0.41-0.333-0.743-0.743-0.743H3.314
+								c-0.41,0-0.743,0.333-0.743,0.743C2.571,4.467,2.904,4.8,3.314,4.8z M16.686,15.2H3.314c-0.41,0-0.743,0.333-0.743,0.743
+								s0.333,0.743,0.743,0.743h13.372c0.41,0,0.743-0.333,0.743-0.743S17.096,15.2,16.686,15.2z M16.686,9.257H3.314
+								c-0.41,0-0.743,0.333-0.743,0.743s0.333,0.743,0.743,0.743h13.372c0.41,0,0.743-0.333,0.743-0.743S17.096,9.257,16.686,9.257z"></path>
+                </svg>
+            </button>
+            <button class="menu-icon menu-icon__close" id="btn-close">
+                <svg class="svg-icon" viewBox="0 0 20 20">
+                    <path fill="none" d="M11.469,10l7.08-7.08c0.406-0.406,0.406-1.064,0-1.469c-0.406-0.406-1.063-0.406-1.469,0L10,8.53l-7.081-7.08
+							c-0.406-0.406-1.064-0.406-1.469,0c-0.406,0.406-0.406,1.063,0,1.469L8.531,10L1.45,17.081c-0.406,0.406-0.406,1.064,0,1.469
+							c0.203,0.203,0.469,0.304,0.735,0.304c0.266,0,0.531-0.101,0.735-0.304L10,11.469l7.08,7.081c0.203,0.203,0.469,0.304,0.735,0.304
+							c0.267,0,0.532-0.101,0.735-0.304c0.406-0.406,0.406-1.064,0-1.469L11.469,10z"></path>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <header class="header">
+        <h1 class="title">Day 2. Progress Steps</h1>
+    </header>
+    <main class="main">
+        <div class="article-container">
+            <article class="article">
+                <h2 class="article__title">Fall Pleasure: A Short, Perfect Book</h2>
+                <div class="article__author">by Alex Ronan</div>
+                <div class="article__content">
+                    <p class="article__text">I love a gem-like little book and the satisfaction of devouring a story all in
+                        one gulp. Here are seven favorites..</p>
+                    <h3 class="article__inner-title">A new-to-me author: The English Understand Wool</h3>
+                    <div class="article__picture-wrapper">
+                        <img src="https://cupofjo.com/wp-content/uploads/2023/09/The-English-Understand-Wool.jpg"
+                             alt="The English Understand Wool" class="article__picture">
+                    </div>
+                    <p class="article__text">If you spot this book in a store, you’ll feel the magnetic pull of its silver
+                        spine, drool-inducing Thiebaud cover, and declarative title. The story begins with Marguerite, our
+                        teenage heroine, explaining the finer things in life. She’s learned from the best, her exacting
+                        maman. At seven, Marguerite begins to play bridge – “one cannot always assume that a child can be
+                        kept out of sight” – and her mother’s friends soon request Marguerite as a partner, “especially if
+                        there were to be interesting stakes.” But then, at 17, Marguerite learns something her maman had
+                        failed to mention, and it’s way higher stakes than what hotel to visit in Paris.</p>
+                </div>
+            </article>
+            <div class="source">Источник:
+                <a href="https://cupofjo.com/2023/09/20/best-short-stories/">cupofjo.com</a>
+            </div>
+        </div>
+    </main>
+</div>
+<nav>
+    <ul class="navigation">
+        <li>
+            <a href="#">Home</a>
+        </li>
+        <li>
+            <a href="#">About</a>
+        </li>
+        <li>
+            <a href="#">Contacts</a>
+        </li>
+    </ul>
+</nav>
+<script src="script.js"></script>
+</body>
+</html>
